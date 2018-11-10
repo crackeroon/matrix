@@ -12,7 +12,7 @@ int main()
     cin>>n;
     cout<<"input m: ";
     cin>>m;
-// www.itmathrepetitor.ru
+    // www.itmathrepetitor.ru
     a=new int* [n];
 
     for (int i=0; i<n; i++)
@@ -29,7 +29,7 @@ int main()
         cout<<a[i][j]<<" ";
       cout<<endl;
     }
-// www.itmathrepetitor.ru
+    // www.itmathrepetitor.ru
     for (int j=0; j<m; j++)
     {
        int sum=0;
@@ -74,9 +74,8 @@ int main()
       cout<<endl;
     }
 
-// каз матрицы на экран
-
-	for (int i=0; i<n; i++)
-		delete [] a[i];
-	delete [] a;
+    // каз матрицы на экран
+    for (int i=0; i<n; i++)
+	delete [] a[i];
+    delete [] a;
 }
